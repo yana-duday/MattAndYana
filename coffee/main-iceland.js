@@ -1,0 +1,1 @@
+(function(){var i,e;i=jQuery,e=i(".hero"),i(function(){return e.backstretch(["img/slides/2.png","img/slides/4.png"],{duration:3e3,fade:750})})}).call(this);

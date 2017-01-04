@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Matt & Yana | Timeline</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Rokkitt' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:700,400' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/style.css">
+
+        <link rel="stylesheet" href="css/portfolio.css">
+        <link rel="stylesheet" href="css/component.css">
+
+        <link rel="stylesheet" href="css/timeline.css">
+
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        
+        <!-- header -->
+        <header class="navigation">
+          <div class="menu-wrapper">
+            <p class="navigation-menu-button" id="js-mobile-menu">MENU</p>
+            <div class="nav">
+              <ul id="navigation-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="timeline.html">Timeline</a></li>
+                <li><a href="travel.html">Travel</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+              </ul>
+            </div>
+          </div>
+        </header>
+
+        <div class="my-spacer10"></div>
+
+        <!-- slider -->
+        <div class="hero">
+            <div class="hero-inner" style="padding-bottom: 5em">
+            <a href="" class="hero-logo">
+            <a class="navbar-brand m-y" href="#">M<span class="ampersand">&</span>Y</a>
+                <div class="hero-copy">
+                    <h1>Our Timeline</h1>    
+                </div>
+            </div>
+        </div>
+
+
+
+<section class="timeline">
+  <ul>
+
+    <li>
+      <div>
+        <time>November 2016</time> Begin house shopping!
+      </div>
+    </li>
+    <li class="dot-travel">
+      <div class="travel">
+        <time>October 2016</time> Honeymoon trip to Iceland.
+      </div>
+    </li>
+    <li>
+      <div>
+        <time>October 8, 2016</time> Wedding Day.
+      </div>
+    </li>
+      <li>
+      <div>
+         <time>August 2015</time> We get a 3rd cat (what's one more when a cute gray tabby needs a home, eh?)
+      </div>
+    </li>
+    <li>
+      <div>
+         <time>January 15, 2015</time> Matt pops the Big Question! (Yana says "YES").
+      </div>
+    </li>
+    <li class="dot-travel">
+      <div class="travel">
+        <time>July 2014</time> Our second international trip - to Costa Rica.  Yana got to pet a sloth (major life milestone).
+      </div>
+    </li>
+        <li>
+      <div>
+        <time>March 2014</time> Move into a rental house.
+      </div>
+    </li>
+    <li>
+      <div>
+        <time>March 2013</time> We move in together into an apartment that was way too small for our computers, workout stuff, and two cats.
+      </div>
+    </li>
+        <li class="dot-travel">
+      <div class="travel">
+        <time>August 2011</time> Our first trip out of the country together, to Mexico.  We were both very worried we'd hate each other by the end of it, but instead we realized we are the best travel buddies!
+      </div>
+    </li>
+    <li>
+      <div>
+        <time>May 11, 2011</time> The official first date!  We went to see the movie <em>Thor</em>.
+      </div>
+    </li>
+    <li>
+      <div>
+        <time>2009</time> First time we met.  Yana messaged Matt on OkCupid.  That's not the actual start of the story, though, as it was not meant-to-be for a little while...
+      </div>
+    </li>
+  </ul>
+</section>
+
+
+
+        <!-- footer -->
+        <footer class="footer">
+          
+
+          <hr>
+
+          <p>&copy; All Rights Reserved, Made with <i class="fa fa-heart"></i></p>
+        </footer>
+
+        <script src="js/vendor/jquery-2.1.0.min.js"></script>
+        <script src="js/vendor/jquery.backstretch.min.js"></script>
+        <script src="js/snap.svg-min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <script>
+          $(function() {
+            var menu = $('#navigation-menu');
+            var menuToggle = $('#js-mobile-menu');
+
+            $(menuToggle).on('click', function(e) {
+              e.preventDefault();
+              menu.slideToggle(function(){
+                if(menu.is(':hidden')) {
+                  menu.removeAttr('style');
+                }
+              });
+            });
+          });
+        </script>
+
+      <script>
+      (function() {
+  
+        function init() {
+          var speed = 330,
+            easing = mina.backout;
+
+          [].slice.call ( document.querySelectorAll( '#grid > a' ) ).forEach( function( el ) {
+            var s = Snap( el.querySelector( 'svg' ) ), path = s.select( 'path' ),
+              pathConfig = {
+                from : path.attr( 'd' ),
+                to : el.getAttribute( 'data-path-hover' )
+              };
+
+            el.addEventListener( 'mouseenter', function() {
+              path.animate( { 'path' : pathConfig.to }, speed, easing );
+            } );
+
+            el.addEventListener( 'mouseleave', function() {
+              path.animate( { 'path' : pathConfig.from }, speed, easing );
+            } );
+          } );
+        }
+
+        init();
+
+      })();
+    </script>
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+       <script>
+       (function() {
+
+          'use strict';
+
+          // define variables
+          var items = document.querySelectorAll(".timeline li");
+
+          // check if an element is in viewport
+          // http://stackoverflow.com/questions/123999/how-to-tell-if-a-dom-element-is-visible-in-the-current-viewport
+          function isElementInViewport(el) {
+            var rect = el.getBoundingClientRect();
+            return (
+              rect.top >= 0 &&
+              rect.left >= 0 &&
+              rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+              rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+            );
+          }
+
+          function callbackFunc() {
+            for (var i = 0; i < items.length; i++) {
+              if (isElementInViewport(items[i])) {
+                items[i].classList.add("in-view");
+              }
+            }
+          }
+
+          // listen for events
+          window.addEventListener("load", callbackFunc);
+          window.addEventListener("resize", callbackFunc);
+          window.addEventListener("scroll", callbackFunc);
+
+        })();
+</script>
+    </body>
+</html>
