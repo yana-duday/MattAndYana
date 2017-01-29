@@ -72,6 +72,7 @@
 	font-weight: bold;
 	color: #999999;
 	font-size: .8rem;
+
 }
 
 
@@ -91,7 +92,7 @@ ul.ingredient-list {
 
 }
 
-@media screen and (max-width: 50em) {
+@media screen and (max-width: 66em) {
 	.recipe-body {
 		margin-left: 15px;
 		margin-right: 10px;

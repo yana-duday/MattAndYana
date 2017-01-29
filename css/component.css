@@ -261,15 +261,22 @@
 /* Media Queries */
 /* Let's redefine the width of each anchor and the margins */
 
-@media screen and (max-width: 58em) {
+@media screen and (max-width: 66em) {
 	.grid a {
 		width: 30%;
+	}
+
+	.cats {
+		margin-left: -50px;
+		width: 120%;
+		margin-bottom: 20px;
+		margin-top: -20px;
 	}
 
 
 }
 
-@media screen and (max-width: 45em) {
+@media screen and (max-width: 66em) {
 	.grid {
 		max-width: 500px;
 	}
@@ -296,6 +303,8 @@
 	}
 
 	.travel-wl {margin-left: 10px;}
+
+
 }
 
 @media screen and (max-width: 27em) {
