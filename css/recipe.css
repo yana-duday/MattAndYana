@@ -91,10 +91,19 @@ ul.ingredient-list {
 
 }
 
-@media screen and (max-width: 45em) {
+@media screen and (max-width: 30em) {
 	.recipe-body {
-		margin-left: 10px;
+		margin-left: 15px;
 		margin-right: 10px;
+	}
+
+	.recipe-card {
+		margin-left: 10px;
+		width: 215px;
+	}
+
+	.quadrant {
+		width: 100px;
 	}
 
 }
