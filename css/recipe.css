@@ -91,7 +91,7 @@ ul.ingredient-list {
 
 }
 
-@media screen and (max-width: 30em) {
+@media screen and (max-width: 50em) {
 	.recipe-body {
 		margin-left: 15px;
 		margin-right: 10px;
