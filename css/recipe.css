@@ -1,3 +1,7 @@
+body {
+	overflow: hidden;
+}
+
 .recipe-card {
 	width: 250px;
 	float: right;
@@ -5,6 +9,7 @@
 	display: table;
 	margin-left: 30px;
 }
+
 
 .recipe-img {
 	width: 200px;
@@ -85,5 +90,13 @@ ol.directions-list {
 ul.ingredient-list {
 	list-style-type: disc;
 	margin-left: 30px;
+
+}
+
+@media screen and (max-width: 45em) {
+	.recipe-body {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
 
 }

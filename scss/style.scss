@@ -58,7 +58,11 @@ body {
       width: 100%;
       margin: auto;
     }
+
+
 }
+
+
 
 .my-spacer10 {
   height: 50px;
@@ -277,6 +281,7 @@ header.navigation {
 
 // slider
 .hero {
+
     $hero-background: desaturate(darken($base-accent-color, 20), 30);   
     $hero-color: white;
 
@@ -318,17 +323,20 @@ header.navigation {
                 font-size: 3em;
                 margin-bottom: .2em;
                 font-family:  $lato;
+                text-shadow: 2px 3px 5px #474747;
 
                 @include media($large-screen) {
                     font-size: 5em;
                     text-shadow: 2px 3px 5px #474747;
                 }
+
             }
 
             p {
                 margin: auto;
                 margin-bottom: 3em; 
                 font-weight: 400;
+                text-shadow: 2px 2px 4px #474747;
 
                 @include media($large-screen) {
                     font-size: 2.5em;
@@ -746,6 +754,8 @@ header.navigation {
   @include reset-display();
 }
 
+
+
   .photo-thumb {
     border: 1px solid #eee;
     margin: 10px;
@@ -765,4 +775,19 @@ header.navigation {
 #elastic_grid_demo {
   width: 60%;
   margin: 0 auto;
+}
+
+@media only screen and (max-width: 31em) {
+      #elastic_grid_demo {
+    width: 100%;
+    }
+
+    .photo-thumb {
+    margin: 5px;
+    width: 7.5rem;
+    }
+
+    .my-spacer10 {
+    height: 25px;
+    }
 }

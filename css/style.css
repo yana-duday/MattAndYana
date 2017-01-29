@@ -1887,7 +1887,8 @@ header.navigation {
       .hero .hero-inner .hero-copy h1 {
         font-size: 3em;
         margin-bottom: .2em;
-        font-family: "Lato", Arial, sans-serif; }
+        font-family: "Lato", Arial, sans-serif;
+        text-shadow: 2px 3px 5px #474747; }
         @media screen and (min-width: 53.75em) {
           .hero .hero-inner .hero-copy h1 {
             font-size: 5em;
@@ -1895,7 +1896,8 @@ header.navigation {
       .hero .hero-inner .hero-copy p {
         margin: auto;
         margin-bottom: 3em;
-        font-weight: 400; }
+        font-weight: 400;
+        text-shadow: 2px 2px 4px #474747; }
         @media screen and (min-width: 53.75em) {
           .hero .hero-inner .hero-copy p {
             font-size: 2.5em;
@@ -2263,3 +2265,12 @@ header.navigation {
 #elastic_grid_demo {
   width: 60%;
   margin: 0 auto; }
+
+@media only screen and (max-width: 31em) {
+  #elastic_grid_demo {
+    width: 100%; }
+  .photo-thumb {
+    margin: 5px;
+    width: 7.5rem; }
+  .my-spacer10 {
+    height: 25px; } }

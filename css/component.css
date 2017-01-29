@@ -286,8 +286,16 @@
 
 	.grid figcaption p {
 		margin: 0;
-		padding: 0 10px;
+		line-height: 1em;
+		margin-top: 40px;
 	}
+
+	.places {
+		width: 90%;
+		margin: 10px;
+	}
+
+	.travel-wl {margin-left: 10px;}
 }
 
 @media screen and (max-width: 27em) {
