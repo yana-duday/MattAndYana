@@ -1981,7 +1981,7 @@ header.navigation {
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   height: 14em;
-  background: #6e96bb;
+  background: #bd5a3b;
   width: 100%;
   overflow: hidden;
   float: left;
@@ -1996,58 +1996,58 @@ header.navigation {
     .grid-items .grid-item {
       width: 33.33333%; } }
   .grid-items .grid-item:nth-child(1) {
-    background-color: #6e96bb;
-    box-shadow: inset 0px 0px 1px 2px #4e7da8; }
+    background-color: #e24716;
+    box-shadow: inset 0px 0px 1px 2px #b43811; }
     .grid-items .grid-item:nth-child(1):hover {
-      background-color: #4e7da8;
+      background-color: #b43811;
       background-repeat: no-repeat;
       background-position: top;
       background-size: cover; }
   .grid-items .grid-item:nth-child(2) {
-    background-color: #2897cf;
-    box-shadow: inset 0px 0px 1px 2px #2078a4; }
+    background-color: #f9c43f;
+    box-shadow: inset 0px 0px 1px 2px #f7b50e; }
     .grid-items .grid-item:nth-child(2):hover {
-      background-color: #2078a4;
+      background-color: #f7b50e;
       background-repeat: no-repeat;
       background-position: top;
       background-size: cover; }
   .grid-items .grid-item:nth-child(3) {
-    background-color: #06508f;
-    box-shadow: inset 0px 0px 1px 2px #04355e; }
+    background-color: #ff8d0e;
+    box-shadow: inset 0px 0px 1px 2px #da7300; }
     .grid-items .grid-item:nth-child(3):hover {
-      background-color: #04355e;
+      background-color: #da7300;
       background-repeat: no-repeat;
       background-position: top;
       background-size: cover; }
   .grid-items .grid-item:nth-child(4) {
-    background-color: #176f87;
-    box-shadow: inset 0px 0px 1px 2px #104b5b; }
+    background-color: #7a9d40;
+    box-shadow: inset 0px 0px 1px 2px #5e7931; }
     .grid-items .grid-item:nth-child(4):hover {
-      background-color: #104b5b;
+      background-color: #5e7931;
       background-repeat: no-repeat;
       background-position: top;
       background-size: cover; }
   .grid-items .grid-item:nth-child(5) {
-    background-color: #289f81;
-    box-shadow: inset 0px 0px 1px 2px #1e7660; }
+    background-color: #bb5e55;
+    box-shadow: inset 0px 0px 1px 2px #9e483f; }
     .grid-items .grid-item:nth-child(5):hover {
-      background-color: #1e7660;
+      background-color: #9e483f;
       background-repeat: no-repeat;
       background-position: top;
       background-size: cover; }
   .grid-items .grid-item:nth-child(6) {
-    background-color: #46d070;
-    box-shadow: inset 0px 0px 1px 2px #2eb557; }
+    background-color: #e8b004;
+    box-shadow: inset 0px 0px 1px 2px #b68a03; }
     .grid-items .grid-item:nth-child(6):hover {
-      background-color: #2eb557;
+      background-color: #b68a03;
       background-repeat: no-repeat;
       background-position: top;
       background-size: cover; }
   .grid-items .grid-item:nth-child(7) {
-    background-color: #176faf;
-    box-shadow: inset 0px 0px 1px 2px #115282; }
+    background-color: #e44e40;
+    box-shadow: inset 0px 0px 1px 2px #d32d1e; }
     .grid-items .grid-item:nth-child(7):hover {
-      background-color: #115282;
+      background-color: #d32d1e;
       background-repeat: no-repeat;
       background-position: top;
       background-size: cover; }
@@ -2091,7 +2091,7 @@ header.navigation {
     max-width: 60%; } }
 
 .grid-items .grid-item-image {
-  background-color: #6e96bb;
+  background-color: #bd5a3b;
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover; }

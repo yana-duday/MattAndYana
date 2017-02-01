@@ -440,15 +440,15 @@ header.navigation {
 
 .grid-items {
   $grid-items-background: $base-body-color;
-  $grid-item-background: desaturate($base-accent-color, 30); 
+  $grid-item-background: desaturate(#e24716, 30); 
   $grid-item-colors: 
-    desaturate($base-accent-color, 30), 
-    #2897cf, 
-    #06508f,
-    #176f87,
-    #289f81, 
-    #46d070,
-    #176faf;
+    #e24716, 
+    #f9c43f, 
+    #ff8d0e,
+    #7a9d40,
+    #bb5e55, 
+    #e8b004,
+    #e44e40;
   $grid-item-border-size: 9px;
   $grid-item-columns: 4;
   $grid-item-big-columns: 8;
