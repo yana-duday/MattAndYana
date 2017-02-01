@@ -15,6 +15,16 @@
 	margin: 5px;
 }
 
+.attrib {
+	
+	font-size: .8em;
+}
+
+.attrib a {
+	color: #999 !important;
+	text-decoration: underline
+}
+
 .card-heading {
 	background-color: #de1b45;
 	color: #fff;
